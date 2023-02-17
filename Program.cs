@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Пользователь вводит числа с клавиатуры а мы потом считаем 
+// сколько среди них чисел больше 0
+
