@@ -1,9 +1,8 @@
-﻿// Пользователь вводит числа с клавиатуры а мы потом считаем 
-// сколько среди них чисел больше 0
-int ReadInput(string message)
+﻿int ReadInput(string message)
 {
     Console.WriteLine(message); 
     string value = Console.ReadLine();
+    int result = Convert.ToInt32(value);
     return result;  
 }
 
@@ -12,16 +11,17 @@ int[] InputArray(int length)
     int[] array = new int[length];
     for (int i = 0; i < length; i++)
     {
-        array[i] = ReadInput($"Введите {i + 1}число");
+        array[i] = ReadInput($"Введите {i + 1} число");
     }
     return array;  
 }
 
 void PrintArray(int[] array)
 {
-    for (int i = 0; i < length; i++)
+    Console.WriteLine("Введены следующие числа: ");
+    for (int i = 0; i < array.Length; i++)
     {
-        Console.WriteLine($"a[{i}] = {array[i]}");
+        Console.WriteLine($"=> {array[i]}");
     }
 }
  
