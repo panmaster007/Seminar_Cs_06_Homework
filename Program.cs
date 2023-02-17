@@ -2,5 +2,7 @@
 // сколько среди них чисел больше 0
 int Promt(string message)
 {
-    Console.WriteLine(message);    
+    Console.WriteLine(message); 
+    string value = Console.ReadLine();
+      
 }
