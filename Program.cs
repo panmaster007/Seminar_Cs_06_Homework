@@ -99,10 +99,10 @@ void Task_1()
 
 void Task_2()
 {
-	double k1 = ReadInput("k1");
-	double b1 = ReadInput("b1");
-	double k2 = ReadInput("k2");
-	double b2 = ReadInput("b2");
+	double k1 = ReadInput("Введите координаты точки k1");
+	double b1 = ReadInput("Введите координаты точки b1");
+	double k2 = ReadInput("Введите координаты точки k2");
+	double b2 = ReadInput("Введите координаты точки b2");
 
 	double deltaK = k1 - k2;
 	double deltaB = b1 - b2;
